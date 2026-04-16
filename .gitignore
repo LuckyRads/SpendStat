@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+backend/build/
+backend/.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+*.classpath
+*.factorypath
+.project
+.settings
+backend/bin
+
+# Spring Boot local secrets — never commit
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-*.yml
+!backend/src/main/resources/application.yml
+
+# Environment files
+.env
+.env.local
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compilation
+.gradle/
+.gradle
+
+# Tools
+.claude/
